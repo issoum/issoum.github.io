@@ -1,25 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isselmou Oumar - Portfolio</title>
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Isselmou Oumar</h1>
-        <p>Professional Summary/Tagline</p>
-    </header>
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <a href="#home" class="logo">YourBrand</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
 
     <main>
-        <section class="about">
-            <div class="profile">
-                <img src="profile.jpg" alt="Isselmou" class="profile-img">
-                <div class="bio">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="gradient-text">Creative Developer</h1>
+                    <p class="lead">Building digital experiences that matter</p>
+                    <div class="social-links">
+                        <a href="https://github.com/issoum" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/isselmou-oumar-254ba5203/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <canvas id="particle-canvas"></canvas>
+            </div>
+        </section>
+
+        <section id="about" class="section fade-in">
+            <div class="about-grid">
+                <div class="about-text">
                     <h2>About Me</h2>
-                    <p>I’m a Quantitative Analyst with a solid foundation in Applied Mathematics and Quantitative Finance, 
+                    <p class="highlight">I’m a Quantitative Analyst with a solid foundation in Applied Mathematics and Quantitative Finance, 
                         holding an engineering degree in Financial Engineering from Ensimag, 
                         a Msc in Quantitative Finance from IAE Grenoble, and a Bachelor’s in Mathematics and 
                         Computer Science from Université Grenoble Alpes.
@@ -35,23 +61,42 @@
                         with hands-on experience in statistical modeling and advanced inferential statistics.
                         In addition to my professional work, I build automated cryptocurrency strategies, 
                         reflecting my ongoing interest in algorithmic trading</p>
+                    <div class="skills-container">
+                        <!-- Skill tags will be populated by JS -->
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="gradient-border">
+                        <img src="profile.jpg" alt="Isselmou" loading="lazy">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="projects">
-            <h2>Projects</h2>
+        <section id="projects" class="section">
+            <h2>Featured Projects</h2>
             <div class="projects-grid" id="projects-container">
-                <!-- Projects will be loaded dynamically -->
+                <!-- Project cards loaded via JS -->
             </div>
+        </section>
+
+        <section id="contact" class="section glass-section">
+            <h2>Get in Touch</h2>
+            <form class="contact-form" netlify>
+                <div class="form-group">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
         </section>
     </main>
 
-    <footer>
-        <p>Connect with me: 
-            <a href="https://github.com/issoum">GitHub</a> | 
-            <a href="https://www.linkedin.com/in/isselmou-oumar-254ba5203/">LinkedIn</a>
-        </p>
-    </footer>
+    <script src="app.js" type="module"></script>
 </body>
 </html>
