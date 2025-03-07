@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sereir Tariq",
+    "section": "",
+    "text": "I’m an IT Quant at Capital Fund Management in Paris, working on options data with the data volatility team. I graduated with a Master’s in Financial Engineering from ENSIMAG in Grenoble, specializing in quantitative finance, stochastic calculus, and derivatives.\nOutside of work, I enjoy exploring new technologies and problem-solving. I’m also passionate about sharing knowledge and contributing to the finance and tech communities.\nInterests: Algorithmic trading, Quantitative Finance, Algorithm Development, Financial Technology, Continuous Learning\n\n\n\nIf you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing workshop offerings and collaborative opportunities."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Sereir Tariq",
+    "section": "",
+    "text": "I’m an IT Quant at Capital Fund Management in Paris, working on options data with the data volatility team. I graduated with a Master’s in Financial Engineering from ENSIMAG in Grenoble, specializing in quantitative finance, stochastic calculus, and derivatives.\nOutside of work, I enjoy exploring new technologies and problem-solving. I’m also passionate about sharing knowledge and contributing to the finance and tech communities.\nInterests: Algorithmic trading, Quantitative Finance, Algorithm Development, Financial Technology, Continuous Learning"
+  },
+  {
+    "objectID": "index.html#inquiries",
+    "href": "index.html#inquiries",
+    "title": "Sereir Tariq",
+    "section": "",
+    "text": "If you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing workshop offerings and collaborative opportunities."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Derivative Products Hedging Project\n{code}\nThe goal of this project is to design and implement a tool in C++ for calculating option prices using the Monte Carlo method, as well as their sensitivities (Greeks) with respect to the spot price. The project includes defining the problem and practical motivations, modeling asset price dynamics, and architecting the pricing tool. The developed executable reads product parameters from a text file and supports a list of financial products to be priced.\nMulti-Cash Flow Derivatives Hedging and Pricing\n{code}\nApplication for hedging derivatives based on a real calendar with multiple cash flows. It consists of a financial application for managing data and constructing the hedging portfolio, and a mathematical application for calculating the quantities of underlying assets to hold.\nAmerican Option Pricing\n{code}\nAmerican options pricing using the Longstaff-Schwartz algorithm within a multidimensional Black-Scholes model. The project involves implementing an option pricing tool in C++ that handles various types of options, including basket, geometric, and performance options. The tool reads financial parameters and market data from input files and outputs the pricing results in JSON format.\nSystematic Strategies with .NET\n{code}\nDevelopment of a financial application using the .NET framework, focusing on forward and backtesting strategies. The project includes implementing a decision-aid tool in C#, with components for database access and gRPC communication. The tool processes test parameters and market data, outputting results in JSON format."
+  }
+]

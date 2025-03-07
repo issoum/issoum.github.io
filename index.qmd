@@ -1,0 +1,48 @@
+---
+title: "Sereir Tariq "
+image: images/profile.jpg
+about:
+  template: trestles
+  links:
+    - text: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/tariqsereir"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/tsereir"
+    # - text: ORCID
+    #   icon: person-circle
+    #   url: "https://orcid.org/0000-0003-1061-9213"
+    # - text: ResearchGate
+    #   icon: journal
+    #   url: "https://www.researchgate.net/profile/Catalina-Albury"
+    - text: Email
+      icon: envelope
+      url: "mailto:tariq.sereir77@gmail.com"
+comments: false
+---
+
+::: {.column-page}
+
+## Bio
+<!-- <p>I’m an <strong>IT Quant</strong> at <a href="https://www.cfm.com/">Capital Fund Management</a> in Paris, working on options data with the data volatility team.</p>
+<p>I graduated with a Master’s in Financial Engineering from <strong>ENSIMAG</strong> in Grenoble, specializing in quantitative finance, stochastic calculus, and derivatives.</p> -->
+
+I’m an IT Quant at [Capital Fund Management](https://www.cfm.com/) in Paris, working on options data with the data volatility team. 
+I graduated with a Master’s in Financial Engineering from ENSIMAG in Grenoble, specializing in quantitative finance, stochastic calculus, and derivatives.
+
+Outside of work, I enjoy exploring new technologies and problem-solving. I’m also passionate about sharing knowledge and contributing to the finance and tech communities.
+
+**Interests:** Algorithmic trading, Quantitative Finance, Algorithm Development, Financial Technology, Continuous Learning 
+
+
+## Inquiries
+If you have questions about my work or are interested in collaborating, feel free to [contact me](mailto:tariq.sereir77@gmail.com). I am always interested in discussing workshop offerings and collaborative opportunities.
+
+<!-- ## Mentorship
+I am open to acting as a mentor to youth navigating a career in science when I have the capacity. If you are part of a group which has historically been excluded from STEM and are seeking a mentor, please [reach out via email](mailto:tariq.sereir77@gmail.com) with a short introduction about yourself.  -->
+
+:::
+
+
+
