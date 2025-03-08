@@ -25,15 +25,15 @@ comments: false
 ::: {.column-page}
 
 ## Bio
-<!-- <p>I’m a <strong>Quantitative Analyst</strong> at <a href="https://www.societegenerale.com/">Societe Generale</a> in Paris, working on climate credit risk modeling with the RISQ/MDL/MOD team.</p>
-<p>I graduated with an engineering degree in Financial Engineering from <strong>ENSIMAG</strong> and Msc in Quantitative Finance from <strong>IAE Grenoble</strong>, specializing in quantitative finance, stochastic calculus, and derivatives.</p> -->
+<!-- <p>I’m a <strong>Quantitative Analyst</strong> at <a href="https://www.societegenerale.com/">Societe Generale</a> in Paris, working on climate risk modeling within the RISQ/MDL/MOD team.</p>
+<p>I graduated with a Financial Engineering degree from <a href="https://ensimag.grenoble-inp.fr/fr/formation/ingenieur-de-grenoble-inp-ensimag-filiere-ingenierie-pour-la-finance#page-presentation">ENSIMAG</a> and Msc in Quantitative Finance from <a href="https://iae.grenoble-inp.fr/fr/nos-formations/master-2-finance-quantitative#page-presentation">IAE Grenoble</a>, specializing in stochastic calculus, advanced quantitative techniques and statistical analysis.</p> -->
 
-I’m a Quantitative Analyst at [Societe Generale](https://www.societegenerale.com) in Paris, working on climate credit risk modeling with the RISQ/MDL/MOD team. 
-I graduated with an engineering degree in Financial Engineering from ENSIMAG and Msc in Quantitative Finance from IAE Grenoble, specializing in quantitative finance, stochastic calculus, and derivatives.
+I’m a Quantitative Analyst at [Societe Generale](https://www.societegenerale.com) in Paris, working on climate risk modeling within the RISQ/MDL/MOD team. 
+I graduated with a Financial Engineering degree from [ENSIMAG](https://ensimag.grenoble-inp.fr/fr/formation/ingenieur-de-grenoble-inp-ensimag-filiere-ingenierie-pour-la-finance#page-presentation) and Msc in Quantitative Finance from [IAE Grenoble](https://iae.grenoble-inp.fr/fr/nos-formations/master-2-finance-quantitative#page-presentation), specializing in stochastic calculus, advanced quantitative techniques and statistical analysis.
 
 Outside of work, I enjoy exploring new technologies and problem-solving. I’m also passionate about sharing knowledge and contributing to the finance and tech communities.
 
-**Interests:** Algorithmic trading, Quantitative Finance, Algorithm Development, Financial Technology, Continuous Learning 
+**Interests:** Algorithmic Trading, Quantitative Finance, Climate Risk Modeling and Continuous Learning
 
 
 ## Inquiries
