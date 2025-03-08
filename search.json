@@ -1,30 +1,44 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "index_base.html",
+    "href": "index_base.html",
+    "title": "Isselmou Oumar",
     "section": "",
-    "text": "Derivative Products Hedging Project\n{code}\nThe goal of this project is to design and implement a tool in C++ for calculating option prices using the Monte Carlo method, as well as their sensitivities (Greeks) with respect to the spot price. The project includes defining the problem and practical motivations, modeling asset price dynamics, and architecting the pricing tool. The developed executable reads product parameters from a text file and supports a list of financial products to be priced.\nMulti-Cash Flow Derivatives Hedging and Pricing\n{code}\nApplication for hedging derivatives based on a real calendar with multiple cash flows. It consists of a financial application for managing data and constructing the hedging portfolio, and a mathematical application for calculating the quantities of underlying assets to hold.\nAmerican Option Pricing\n{code}\nAmerican options pricing using the Longstaff-Schwartz algorithm within a multidimensional Black-Scholes model. The project involves implementing an option pricing tool in C++ that handles various types of options, including basket, geometric, and performance options. The tool reads financial parameters and market data from input files and outputs the pricing results in JSON format.\nSystematic Strategies with .NET\n{code}\nDevelopment of a financial application using the .NET framework, focusing on forward and backtesting strategies. The project includes implementing a decision-aid tool in C#, with components for database access and gRPC communication. The tool processes test parameters and market data, outputting results in JSON format."
+    "text": "I’m a Quantitative Analyst at Societe Generale in Paris, working on climate risk modeling within the RISQ/MDL/MOD team. I graduated with a Financial Engineering degree from ENSIMAG and a Msc in Quantitative Finance from IAE Grenoble, specializing in stochastic calculus, advanced quantitative techniques and statistical analysis.\nOutside of work, I enjoy exploring new technologies and problem-solving. I’m also passionate about sharing knowledge and contributing to the finance and tech communities.\nInterests: Algorithmic Trading, Quantitative Finance, Climate Risk Modeling and Continuous Learning\n\n\n\nIf you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing workshop offerings and collaborative opportunities."
+  },
+  {
+    "objectID": "index_base.html#bio",
+    "href": "index_base.html#bio",
+    "title": "Isselmou Oumar",
+    "section": "",
+    "text": "I’m a Quantitative Analyst at Societe Generale in Paris, working on climate risk modeling within the RISQ/MDL/MOD team. I graduated with a Financial Engineering degree from ENSIMAG and a Msc in Quantitative Finance from IAE Grenoble, specializing in stochastic calculus, advanced quantitative techniques and statistical analysis.\nOutside of work, I enjoy exploring new technologies and problem-solving. I’m also passionate about sharing knowledge and contributing to the finance and tech communities.\nInterests: Algorithmic Trading, Quantitative Finance, Climate Risk Modeling and Continuous Learning"
+  },
+  {
+    "objectID": "index_base.html#inquiries",
+    "href": "index_base.html#inquiries",
+    "title": "Isselmou Oumar",
+    "section": "",
+    "text": "If you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing workshop offerings and collaborative opportunities."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Isselmou Oumar",
     "section": "",
-    "text": "I’m a Quantitative Analyst at Societe Generale in Paris, working on climate risk modeling within the RISQ/MDL/MOD team. I graduated with a Financial Engineering degree from ENSIMAG and a Msc in Quantitative Finance from IAE Grenoble, specializing in stochastic calculus, advanced quantitative techniques and statistical analysis.\nOutside of work, I enjoy exploring new technologies and problem-solving. I’m also passionate about sharing knowledge and contributing to the finance and tech communities.\nInterests: Algorithmic Trading, Quantitative Finance, Climate Risk Modeling and Continuous Learning\n\n\n\nIf you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing workshop offerings and collaborative opportunities."
-  },
-  {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
-    "title": "Isselmou Oumar",
-    "section": "",
-    "text": "I’m a Quantitative Analyst at Societe Generale in Paris, working on climate risk modeling within the RISQ/MDL/MOD team. I graduated with a Financial Engineering degree from ENSIMAG and a Msc in Quantitative Finance from IAE Grenoble, specializing in stochastic calculus, advanced quantitative techniques and statistical analysis.\nOutside of work, I enjoy exploring new technologies and problem-solving. I’m also passionate about sharing knowledge and contributing to the finance and tech communities.\nInterests: Algorithmic Trading, Quantitative Finance, Climate Risk Modeling and Continuous Learning"
+    "text": "&lt;img src=\"images/profile.jpg\" alt=\"Isselmou Oumar\"&gt;\n\n\n&lt;h2&gt;Bio&lt;/h2&gt;\n&lt;p&gt;I’m a &lt;strong&gt;Quantitative Analyst&lt;/strong&gt; at &lt;a href=\"https://www.societegenerale.com/\"&gt;Societe Generale&lt;/a&gt; in Paris, working on climate risk modeling within the RISQ/MDL/MOD team.&lt;/p&gt;\n&lt;p&gt;I graduated with a Financial Engineering degree from &lt;a href=\"https://ensimag.grenoble-inp.fr/\"&gt;ENSIMAG&lt;/a&gt; and an MSc in Quantitative Finance from &lt;a href=\"https://iae.grenoble-inp.fr/\"&gt;IAE Grenoble&lt;/a&gt;, specializing in stochastic calculus, advanced quantitative techniques, and statistical analysis.&lt;/p&gt;\n&lt;p&gt;Outside of work, I enjoy exploring new technologies, problem-solving, and sharing knowledge with the finance and tech communities.&lt;/p&gt;\n&lt;strong&gt;Interests:&lt;/strong&gt; Algorithmic Trading, Quantitative Finance, Climate Risk Modeling, and Continuous Learning"
   },
   {
     "objectID": "index.html#inquiries",
     "href": "index.html#inquiries",
     "title": "Isselmou Oumar",
+    "section": "Inquiries",
+    "text": "Inquiries\nIf you have questions or are interested in collaborating, feel free to contact me."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "If you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing workshop offerings and collaborative opportunities."
+    "text": "Derivative Products Hedging Project\n{code}\nThe goal of this project is to design and implement a tool in C++ for calculating option prices using the Monte Carlo method, as well as their sensitivities (Greeks) with respect to the spot price. The project includes defining the problem and practical motivations, modeling asset price dynamics, and architecting the pricing tool. The developed executable reads product parameters from a text file and supports a list of financial products to be priced.\nMulti-Cash Flow Derivatives Hedging and Pricing\n{code}\nApplication for hedging derivatives based on a real calendar with multiple cash flows. It consists of a financial application for managing data and constructing the hedging portfolio, and a mathematical application for calculating the quantities of underlying assets to hold.\nAmerican Option Pricing\n{code}\nAmerican options pricing using the Longstaff-Schwartz algorithm within a multidimensional Black-Scholes model. The project involves implementing an option pricing tool in C++ that handles various types of options, including basket, geometric, and performance options. The tool reads financial parameters and market data from input files and outputs the pricing results in JSON format.\nSystematic Strategies with .NET\n{code}\nDevelopment of a financial application using the .NET framework, focusing on forward and backtesting strategies. The project includes implementing a decision-aid tool in C#, with components for database access and gRPC communication. The tool processes test parameters and market data, outputting results in JSON format."
   }
 ]

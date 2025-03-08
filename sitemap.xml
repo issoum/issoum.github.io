@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://issoum.github.io/projects.html</loc>
-    <lastmod>2025-03-08T01:00:51.879Z</lastmod>
-  </url>
-  <url>
-    <loc>https://issoum.github.io/index.html</loc>
-    <lastmod>2025-03-08T01:00:51.879Z</lastmod>
+    <loc>https://issoum.github.io/index_base.html</loc>
+    <lastmod>2025-03-08T18:47:59.403Z</lastmod>
   </url>
   <url>
     <loc>https://issoum.github.io/publications.html</loc>
-    <lastmod>2025-03-08T01:00:51.879Z</lastmod>
+    <lastmod>2025-03-08T18:47:59.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://issoum.github.io/index.html</loc>
+    <lastmod>2025-03-08T18:47:59.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://issoum.github.io/projects.html</loc>
+    <lastmod>2025-03-08T18:47:59.403Z</lastmod>
   </url>
 </urlset>
