@@ -1,5 +1,6 @@
 ---
-title: "Isselmou Oumar "
+title: "Isselmou Oumar"
+site-title: ""
 image: images/profile.jpg
 about:
   template: trestles
