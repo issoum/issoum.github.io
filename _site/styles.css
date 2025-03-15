@@ -1,1 +1,111 @@
-/* css styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    /* Headings */
+    h1, h2 {
+    color: #343a40;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    }
+    
+    /* Paragraphs */
+    p {
+    margin-bottom: 1em;
+    }
+    
+    /* Profile Image */
+    img {
+    border-radius: 8px;
+    max-width: 100%;
+    }
+    
+    /* Navigation Bar */
+    .navbar, .quarto-navbar {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.5s ease;
+    }
+    
+    .navbar a, .quarto-navbar a {
+    color: #343a40;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 500;
+    }
+    
+    .navbar a:hover, .quarto-navbar a:hover {
+    color: #007bff;
+    text-decoration: none;
+    }
+    
+    .navbar.scrolled, .quarto-navbar.scrolled {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+    .navbar .active {
+        display: inline !important;
+      }
+    
+    /* Project Sections */
+    .project {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    }
+    
+    .project h3 {
+    color: #343a40;
+    font-size: 22px;
+    margin-top: 15px;
+    }
+    
+    .project p {
+    font-size: 16px;
+    color: #6c757d;
+    }
+    
+    .project a {
+    color: #007bff;
+    text-decoration: none;
+    }
+    
+    .project a:hover {
+    text-decoration: underline;
+    }
+    
+    
+    a {
+    color: #007bff;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+    body {
+    padding: 10px;
+    }
+    .navbar, .quarto-navbar {
+    flex-direction: column;
+    align-items: center;
+    }
+    }

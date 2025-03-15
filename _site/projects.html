@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-530bf8e59df25186f8bffdc63bad3503.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-22381ab97ffb8a420d3841344730e94d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -108,9 +108,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -133,27 +131,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="derivative-products-hedging-project" class="level2">
+<h2 class="anchored" data-anchor-id="derivative-products-hedging-project"><a href="https://github.com/tsereir/Derivative-Products-Hedging/blob/master/pricer.pdf/">Derivative Products Hedging Project</a></h2>
+<p>Code: <a href="https://github.com/tsereir/Derivative-Products-Hedging">GitHub Repository</a><br>
+A C++ tool for option pricing using Monte Carlo simulation and calculating Greeks.</p>
+<p>Key Features:</p>
 <ul>
-<li><p><a href="https://github.com/tsereir/Derivative-Products-Hedging/blob/master/pricer.pdf/">Derivative Products Hedging Project</a><br>
-<a href="https://github.com/tsereir/Derivative-Products-Hedging">{code}</a><br>
-The goal of this project is to design and implement a tool in C++ for calculating option prices using the Monte Carlo method, as well as their sensitivities (Greeks) with respect to the spot price. The project includes defining the problem and practical motivations, modeling asset price dynamics, and architecting the pricing tool. The developed executable reads product parameters from a text file and supports a list of financial products to be priced.</p></li>
-<li><p><a href="https://github.com/tsereir/Multi-Cash-Flow-Hedging-">Multi-Cash Flow Derivatives Hedging and Pricing</a><br>
-<a href="https://github.com/tsereir/Multi-Cash-Flow-Hedging-">{code}</a><br>
-Application for hedging derivatives based on a real calendar with multiple cash flows. It consists of a financial application for managing data and constructing the hedging portfolio, and a mathematical application for calculating the quantities of underlying assets to hold.</p></li>
-<li><p><a href="https://github.com/tsereir/American-Option-Pricing/tree/master">American Option Pricing</a><br>
-<a href="https://github.com/tsereir/American-Option-Pricing/tree/master">{code}</a><br>
-American options pricing using the Longstaff-Schwartz algorithm within a multidimensional Black-Scholes model. The project involves implementing an option pricing tool in C++ that handles various types of options, including basket, geometric, and performance options. The tool reads financial parameters and market data from input files and outputs the pricing results in JSON format.</p></li>
-<li><p><a href="https://github.com/tsereir/Systematic-Strategies-">Systematic Strategies with .NET</a><br>
-<a href="https://github.com/tsereir/Systematic-Strategies-">{code}</a><br>
-Development of a financial application using the .NET framework, focusing on forward and backtesting strategies. The project includes implementing a decision-aid tool in C#, with components for database access and gRPC communication. The tool processes test parameters and market data, outputting results in JSON format.</p></li>
+<li>Simulates option prices &amp; sensitivities.</li>
+<li>Supports multiple financial products.</li>
+<li>Reads product parameters from text files.</li>
 </ul>
-<!-- * [Coding Nature](https://github.com/alburycatalina/Coding-Nature)\
-  A repository for a workshop for Black high school students in Nova Scotia (ages 13+). This workshop aims to inspire passion for nature and science, while giving an introduction to coding logic and data. The included exercises demonstrate how we can use programming as a tool to improve our understanding of the world around us.
+<hr>
+</section>
+<section id="multi-cash-flow-derivatives-hedging" class="level2">
+<h2 class="anchored" data-anchor-id="multi-cash-flow-derivatives-hedging"><a href="https://github.com/tsereir/Multi-Cash-Flow-Hedging-">Multi-Cash Flow Derivatives Hedging</a></h2>
+<p>Code: <a href="https://github.com/tsereir/Multi-Cash-Flow-Hedging-">GitHub Repository</a><br>
+A hedging &amp; risk management tool for derivatives with multiple cash flows.</p>
+<p>Key Features:</p>
+<ul>
+<li>Constructs hedging portfolios with real calendar data.</li>
+<li>Computes optimal asset allocation.</li>
+</ul>
+<hr>
+</section>
+<section id="american-option-pricing" class="level2">
+<h2 class="anchored" data-anchor-id="american-option-pricing"><a href="https://github.com/tsereir/American-Option-Pricing/tree/master">American Option Pricing</a></h2>
+<p>Code: <a href="https://github.com/tsereir/American-Option-Pricing/tree/master">GitHub Repository</a><br>
+A C++ implementation of Longstaff-Schwartz for American option pricing.</p>
+<p>Key Features:</p>
+<ul>
+<li>Uses multidimensional Black-Scholes framework.</li>
+<li>Reads input from JSON files.</li>
+</ul>
+<hr>
+</section>
+<section id="systematic-strategies-with-.net" class="level2">
+<h2 class="anchored" data-anchor-id="systematic-strategies-with-.net"><a href="https://github.com/tsereir/Systematic-Strategies-">Systematic Strategies with .NET</a></h2>
+<p>Code: <a href="https://github.com/tsereir/Systematic-Strategies-">GitHub Repository</a><br>
+A C# framework for automated trading strategies.</p>
+<p>Key Features:</p>
+<ul>
+<li>Implements forward &amp; backtesting.</li>
+<li>Uses gRPC communication.</li>
+<li>Processes market data &amp; parameters.</li>
+</ul>
 
-* [Intro to Coding for Sr. High](https://github.com/alburycatalina/FHA_intro_to_coding)\
-  Code for a 2-day introductory coding tutorial for Bahamian high school students at Forest Heights Academy.  -->
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

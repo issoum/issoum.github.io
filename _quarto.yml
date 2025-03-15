@@ -7,21 +7,17 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
-      # - publications.qmd
+      - href: projects.qmd
+        text: Projects
   favicon: "images/favicon-32x32.png"
-  # page-footer:
-  #   left: "I created this site with [Quarto](https://quarto.org/), an open source scientific publishing system. To see the code that generates this site, [visit the repo here]()."
-    
 
 format:
   html:
-    theme: minty
+    theme: flatly
     css: styles.css
-    toc: true
+    toc: false
 
 editor: visual
 
 execute:
   freeze: auto
-

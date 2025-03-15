@@ -1,29 +1,53 @@
 ---
 title: "Projects"
-format: html
+format:
+  html:
+    theme: darkly
+    css: styles.css
 editor: visual
+
+---
+##  [Derivative Products Hedging Project](https://github.com/tsereir/Derivative-Products-Hedging/blob/master/pricer.pdf/)
+Code: [GitHub Repository](https://github.com/tsereir/Derivative-Products-Hedging)  
+A C++ tool for option pricing using Monte Carlo simulation and calculating Greeks.
+
+Key Features:
+
+- Simulates option prices & sensitivities.
+- Supports multiple financial products.
+- Reads product parameters from text files.
+
 ---
 
-* [Derivative Products Hedging Project](https://github.com/tsereir/Derivative-Products-Hedging/blob/master/pricer.pdf/)\
-    [{code}](https://github.com/tsereir/Derivative-Products-Hedging)\
-    The goal of this project is to design and implement a tool in C++ for calculating option prices using the Monte Carlo method, as well as their sensitivities (Greeks) with respect to the spot price. The project includes defining the problem and practical motivations, modeling asset price dynamics, and architecting the pricing tool. The developed executable reads product parameters from a text file and supports a list of financial products to be priced.
+## [Multi-Cash Flow Derivatives Hedging](https://github.com/tsereir/Multi-Cash-Flow-Hedging-)
+ Code: [GitHub Repository](https://github.com/tsereir/Multi-Cash-Flow-Hedging-)  
+A hedging & risk management tool for derivatives with multiple cash flows.
 
-* [Multi-Cash Flow Derivatives Hedging and Pricing](https://github.com/tsereir/Multi-Cash-Flow-Hedging-)\
-  [{code}](https://github.com/tsereir/Multi-Cash-Flow-Hedging-)\
-  Application for hedging derivatives based on a real calendar with multiple cash flows. It consists of a financial application for managing data and constructing the hedging portfolio, and a mathematical application for calculating the quantities of underlying assets to hold.
+Key Features:
 
+- Constructs hedging portfolios with real calendar data.
+- Computes optimal asset allocation.
 
-* [American Option Pricing](https://github.com/tsereir/American-Option-Pricing/tree/master)\
- [{code}](https://github.com/tsereir/American-Option-Pricing/tree/master)\
-American options pricing using the Longstaff-Schwartz algorithm within a multidimensional Black-Scholes model. The project involves implementing an option pricing tool in C++ that handles various types of options, including basket, geometric, and performance options. The tool reads financial parameters and market data from input files and outputs the pricing results in JSON format.
+---
 
-* [Systematic Strategies with .NET](https://github.com/tsereir/Systematic-Strategies-)\
-  [{code}](https://github.com/tsereir/Systematic-Strategies-)\
-  Development of a financial application using the .NET framework, focusing on forward and backtesting strategies. The project includes implementing a decision-aid tool in C#, with components for database access and gRPC communication. The tool processes test parameters and market data, outputting results in JSON format. 
+##  [American Option Pricing](https://github.com/tsereir/American-Option-Pricing/tree/master)
+ Code: [GitHub Repository](https://github.com/tsereir/American-Option-Pricing/tree/master)  
+A C++ implementation of Longstaff-Schwartz for American option pricing.
 
+Key Features:
 
-<!-- * [Coding Nature](https://github.com/alburycatalina/Coding-Nature)\
-  A repository for a workshop for Black high school students in Nova Scotia (ages 13+). This workshop aims to inspire passion for nature and science, while giving an introduction to coding logic and data. The included exercises demonstrate how we can use programming as a tool to improve our understanding of the world around us.
+- Uses multidimensional Black-Scholes framework.
+- Reads input from JSON files.
 
-* [Intro to Coding for Sr. High](https://github.com/alburycatalina/FHA_intro_to_coding)\
-  Code for a 2-day introductory coding tutorial for Bahamian high school students at Forest Heights Academy.  -->
+---
+
+##  [Systematic Strategies with .NET](https://github.com/tsereir/Systematic-Strategies-)
+ Code: [GitHub Repository](https://github.com/tsereir/Systematic-Strategies-)  
+A C# framework for automated trading strategies.
+
+Key Features:
+
+- Implements forward & backtesting.
+- Uses gRPC communication.
+- Processes market data & parameters.
+
