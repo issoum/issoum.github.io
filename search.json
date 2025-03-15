@@ -21,24 +21,73 @@
     "text": "If you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing workshop offerings and collaborative opportunities."
   },
   {
+    "objectID": "projects_base.html",
+    "href": "projects_base.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Derivative Products Hedging Project\n{code}\nThe goal of this project is to design and implement a tool in C++ for calculating option prices using the Monte Carlo method, as well as their sensitivities (Greeks) with respect to the spot price. The project includes defining the problem and practical motivations, modeling asset price dynamics, and architecting the pricing tool. The developed executable reads product parameters from a text file and supports a list of financial products to be priced.\nMulti-Cash Flow Derivatives Hedging and Pricing\n{code}\nApplication for hedging derivatives based on a real calendar with multiple cash flows. It consists of a financial application for managing data and constructing the hedging portfolio, and a mathematical application for calculating the quantities of underlying assets to hold.\nAmerican Option Pricing\n{code}\nAmerican options pricing using the Longstaff-Schwartz algorithm within a multidimensional Black-Scholes model. The project involves implementing an option pricing tool in C++ that handles various types of options, including basket, geometric, and performance options. The tool reads financial parameters and market data from input files and outputs the pricing results in JSON format.\nSystematic Strategies with .NET\n{code}\nDevelopment of a financial application using the .NET framework, focusing on forward and backtesting strategies. The project includes implementing a decision-aid tool in C#, with components for database access and gRPC communication. The tool processes test parameters and market data, outputting results in JSON format."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Isselmou Oumar",
     "section": "",
-    "text": "&lt;img src=\"images/profile.jpg\" alt=\"Isselmou Oumar\"&gt;\n\n\n&lt;h2&gt;Bio&lt;/h2&gt;\n&lt;p&gt;I’m a &lt;strong&gt;Quantitative Analyst&lt;/strong&gt; at &lt;a href=\"https://www.societegenerale.com/\"&gt;Societe Generale&lt;/a&gt; in Paris, working on climate risk modeling within the RISQ/MDL/MOD team.&lt;/p&gt;\n&lt;p&gt;I graduated with a Financial Engineering degree from &lt;a href=\"https://ensimag.grenoble-inp.fr/\"&gt;ENSIMAG&lt;/a&gt; and an MSc in Quantitative Finance from &lt;a href=\"https://iae.grenoble-inp.fr/\"&gt;IAE Grenoble&lt;/a&gt;, specializing in stochastic calculus, advanced quantitative techniques, and statistical analysis.&lt;/p&gt;\n&lt;p&gt;Outside of work, I enjoy exploring new technologies, problem-solving, and sharing knowledge with the finance and tech communities.&lt;/p&gt;\n&lt;strong&gt;Interests:&lt;/strong&gt; Algorithmic Trading, Quantitative Finance, Climate Risk Modeling, and Continuous Learning"
+    "text": "I’m a Quantitative Analyst at Société Générale in Paris, working on climate risk modeling within the RISQ/MDL/MOD team.\nI hold:\n\nA Financial Engineering degree from ENSIMAG\nAn MSc in Quantitative Finance from IAE Grenoble\n\nI specialize in stochastic calculus, quantitative finance, algorithmic trading, and machine learning applied to risk modeling."
   },
   {
-    "objectID": "index.html#inquiries",
-    "href": "index.html#inquiries",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
     "title": "Isselmou Oumar",
-    "section": "Inquiries",
-    "text": "Inquiries\nIf you have questions or are interested in collaborating, feel free to contact me."
+    "section": "",
+    "text": "I’m a Quantitative Analyst at Société Générale in Paris, working on climate risk modeling within the RISQ/MDL/MOD team.\nI hold:\n\nA Financial Engineering degree from ENSIMAG\nAn MSc in Quantitative Finance from IAE Grenoble\n\nI specialize in stochastic calculus, quantitative finance, algorithmic trading, and machine learning applied to risk modeling."
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Isselmou Oumar",
+    "section": "Interests",
+    "text": "Interests\n\nAlgorithmic Trading – Building automated strategies.\nQuantitative Finance – Pricing, hedging, and risk modeling.\nClimate Risk Modeling – Quantifying the impact of climate change on financial markets.\nTechnology & Programming – Exploring innovations in financial modeling."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Isselmou Oumar",
+    "section": "Contact",
+    "text": "Contact\nFeel free to reach out via e-mail for collaborations or discussions on quantitative finance, tech, and research."
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Derivative Products Hedging Project\n{code}\nThe goal of this project is to design and implement a tool in C++ for calculating option prices using the Monte Carlo method, as well as their sensitivities (Greeks) with respect to the spot price. The project includes defining the problem and practical motivations, modeling asset price dynamics, and architecting the pricing tool. The developed executable reads product parameters from a text file and supports a list of financial products to be priced.\nMulti-Cash Flow Derivatives Hedging and Pricing\n{code}\nApplication for hedging derivatives based on a real calendar with multiple cash flows. It consists of a financial application for managing data and constructing the hedging portfolio, and a mathematical application for calculating the quantities of underlying assets to hold.\nAmerican Option Pricing\n{code}\nAmerican options pricing using the Longstaff-Schwartz algorithm within a multidimensional Black-Scholes model. The project involves implementing an option pricing tool in C++ that handles various types of options, including basket, geometric, and performance options. The tool reads financial parameters and market data from input files and outputs the pricing results in JSON format.\nSystematic Strategies with .NET\n{code}\nDevelopment of a financial application using the .NET framework, focusing on forward and backtesting strategies. The project includes implementing a decision-aid tool in C#, with components for database access and gRPC communication. The tool processes test parameters and market data, outputting results in JSON format."
+    "text": "Code: GitHub Repository\nA C++ tool for option pricing using Monte Carlo simulation and calculating Greeks.\nKey Features:\n\nSimulates option prices & sensitivities.\nSupports multiple financial products.\nReads product parameters from text files."
+  },
+  {
+    "objectID": "projects.html#derivative-products-hedging-project",
+    "href": "projects.html#derivative-products-hedging-project",
+    "title": "Projects",
+    "section": "",
+    "text": "Code: GitHub Repository\nA C++ tool for option pricing using Monte Carlo simulation and calculating Greeks.\nKey Features:\n\nSimulates option prices & sensitivities.\nSupports multiple financial products.\nReads product parameters from text files."
+  },
+  {
+    "objectID": "projects.html#multi-cash-flow-derivatives-hedging",
+    "href": "projects.html#multi-cash-flow-derivatives-hedging",
+    "title": "Projects",
+    "section": "Multi-Cash Flow Derivatives Hedging",
+    "text": "Multi-Cash Flow Derivatives Hedging\nCode: GitHub Repository\nA hedging & risk management tool for derivatives with multiple cash flows.\nKey Features:\n\nConstructs hedging portfolios with real calendar data.\nComputes optimal asset allocation."
+  },
+  {
+    "objectID": "projects.html#american-option-pricing",
+    "href": "projects.html#american-option-pricing",
+    "title": "Projects",
+    "section": "American Option Pricing",
+    "text": "American Option Pricing\nCode: GitHub Repository\nA C++ implementation of Longstaff-Schwartz for American option pricing.\nKey Features:\n\nUses multidimensional Black-Scholes framework.\nReads input from JSON files."
+  },
+  {
+    "objectID": "projects.html#systematic-strategies-with-.net",
+    "href": "projects.html#systematic-strategies-with-.net",
+    "title": "Projects",
+    "section": "Systematic Strategies with .NET",
+    "text": "Systematic Strategies with .NET\nCode: GitHub Repository\nA C# framework for automated trading strategies.\nKey Features:\n\nImplements forward & backtesting.\nUses gRPC communication.\nProcesses market data & parameters."
   }
 ]
