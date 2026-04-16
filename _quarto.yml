@@ -9,6 +9,8 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects
+      - href: Isselmou_Oumar_Resume_2026.pdf
+        text: Resume
   favicon: "images/favicon-32x32.png"
 
 format:

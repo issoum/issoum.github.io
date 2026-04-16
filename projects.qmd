@@ -2,52 +2,77 @@
 title: "Projects"
 format:
   html:
-    theme: darkly
+    theme: flatly
     css: styles.css
-editor: visual
-
 ---
-##  [Derivative Products Hedging Project](https://github.com/tsereir/Derivative-Products-Hedging/blob/master/pricer.pdf/)
-Code: [GitHub Repository](https://github.com/tsereir/Derivative-Products-Hedging)  
-A C++ tool for option pricing using Monte Carlo simulation and calculating Greeks.
 
-Key Features:
+## [C++ Derivatives Pricing Library](https://github.com/tsereir/Derivative-Products-Hedging)
+Code: [GitHub Repository](https://github.com/tsereir/Derivative-Products-Hedging)
 
-- Simulates option prices & sensitivities.
-- Supports multiple financial products.
-- Reads product parameters from text files.
+Monte-Carlo engine for derivatives pricing with Greeks computation, supporting multiple financial products.
+
+- Monte-Carlo option pricing with sensitivity analysis (Greeks)
+- Supports multiple financial products with parameterized inputs
+- Reads product parameters from configuration files
 
 ---
 
 ## [Multi-Cash Flow Derivatives Hedging](https://github.com/tsereir/Multi-Cash-Flow-Hedging-)
- Code: [GitHub Repository](https://github.com/tsereir/Multi-Cash-Flow-Hedging-)  
-A hedging & risk management tool for derivatives with multiple cash flows.
+Code: [GitHub Repository](https://github.com/tsereir/Multi-Cash-Flow-Hedging-)
 
-Key Features:
+Hedging and risk management platform for derivatives with multiple cash flows, built on a real calendar framework.
 
-- Constructs hedging portfolios with real calendar data.
-- Computes optimal asset allocation.
-
----
-
-##  [American Option Pricing](https://github.com/tsereir/American-Option-Pricing/tree/master)
- Code: [GitHub Repository](https://github.com/tsereir/American-Option-Pricing/tree/master)  
-A C++ implementation of Longstaff-Schwartz for American option pricing.
-
-Key Features:
-
-- Uses multidimensional Black-Scholes framework.
-- Reads input from JSON files.
+- Constructs hedging portfolios with real calendar data
+- Computes optimal asset allocation across cash flow dates
 
 ---
 
-##  [Systematic Strategies with .NET](https://github.com/tsereir/Systematic-Strategies-)
- Code: [GitHub Repository](https://github.com/tsereir/Systematic-Strategies-)  
-A C# framework for automated trading strategies.
+## [American Option Pricing](https://github.com/tsereir/American-Option-Pricing/tree/master)
+Code: [GitHub Repository](https://github.com/tsereir/American-Option-Pricing/tree/master)
 
-Key Features:
+Longstaff-Schwartz implementation for American option pricing within a multidimensional Black-Scholes framework.
 
-- Implements forward & backtesting.
-- Uses gRPC communication.
-- Processes market data & parameters.
+- Handles basket, geometric, and performance options
+- Reads market data from JSON input files
+- Outputs pricing results with exercise boundary analysis
 
+---
+
+## [Systematic Strategies Back-Testing Engine](https://github.com/tsereir/Systematic-Strategies-)
+Code: [GitHub Repository](https://github.com/tsereir/Systematic-Strategies-)
+
+C#/.NET framework for systematic equity strategies with full transaction-cost modeling and performance attribution.
+
+- Forward and backtesting with realistic cost assumptions
+- gRPC communication layer for market data
+- Strategy performance attribution and analytics
+
+---
+
+## Cross-Asset Structured Product Platform
+
+End-to-end structured product pricing and hedging platform spanning three languages.
+
+- **C++ pricer** for structured product valuation
+- **Python** hedging engine and portfolio builder
+- **JS/Node.js** GUI for trade visualization and management
+
+---
+
+## Kalman Filter Pairs Trading Strategy
+
+Statistical arbitrage strategy for cointegrated asset pairs using Kalman-filter-based dynamic hedge ratios.
+
+- Pairs: BTC/ETH, WTI/Brent, Gold/Silver
+- Dynamic z-score entry/exit signals
+- Adaptive hedge ratio estimation via Kalman filtering
+
+---
+
+## Swaption Demand Forecasting
+
+Random Forest and SVM models forecasting swaption subscription demand from U.S. insurer data. Validated by senior quants at Credit Agricole CIB.
+
+- Python/SQL pipeline for feature engineering on insurer datasets
+- Ensemble and kernel-based classification models
+- Model outputs used for flow-anticipation analysis

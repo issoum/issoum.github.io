@@ -11,28 +11,7 @@
     "href": "index.html",
     "title": "Isselmou Oumar",
     "section": "",
-    "text": "I’m a Quantitative Analyst at Société Générale in Paris, working on climate risk modeling within the RISQ/MDL/MOD team.\nI hold:\n\nA Financial Engineering degree from ENSIMAG\nAn MSc in Quantitative Finance from IAE Grenoble\n\nI specialize in stochastic calculus, quantitative finance, algorithmic trading, and machine learning applied to risk modeling."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Isselmou Oumar",
-    "section": "",
-    "text": "I’m a Quantitative Analyst at Société Générale in Paris, working on climate risk modeling within the RISQ/MDL/MOD team.\nI hold:\n\nA Financial Engineering degree from ENSIMAG\nAn MSc in Quantitative Finance from IAE Grenoble\n\nI specialize in stochastic calculus, quantitative finance, algorithmic trading, and machine learning applied to risk modeling."
-  },
-  {
-    "objectID": "index.html#interests",
-    "href": "index.html#interests",
-    "title": "Isselmou Oumar",
-    "section": "Interests",
-    "text": "Interests\n\nAlgorithmic Trading – Building automated strategies.\nQuantitative Finance – Pricing, hedging, and risk modeling.\nClimate Risk Modeling – Quantifying the impact of climate change on financial markets.\nTechnology & Programming – Exploring innovations in financial modeling."
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Isselmou Oumar",
-    "section": "Contact",
-    "text": "Contact\nFeel free to reach out via e-mail for collaborations or discussions on quantitative finance, tech, and research."
+    "text": "Isselmou Oumar\n\nQuantitative Analyst | Paris\n\n\nBuilding credit models on a €142B corporate book at Societe Generale using stochastic control, dynamic programming, and statistical learning. Previously at Amundi Technology — credit-spread modeling, climate-risk pricing, and portfolio construction.\n\n\n LinkedIn  GitHub  Email  Resume\n\n\n\n\n\n\n\nCore Competencies\n\n\n\n\n\nDerivatives Pricing & Calibration\n\n\nMonte-Carlo simulation, model calibration, Longstaff-Schwartz American option pricing, multi-asset structured products\n\n\n\n\nSystematic Strategies\n\n\nBack-testing engines, factor-based strategies, transaction-cost modeling, performance attribution\n\n\n\n\nPortfolio Construction & Risk\n\n\nMulti-asset portfolio optimization, hedging, credit spread modeling, risk-premia analysis\n\n\n\n\nStatistical & ML Modeling\n\n\nTime-series analysis, Kalman filtering, Random Forest/SVM, probabilistic scenario modeling\n\n\n\n\n\n\n\nEducation\n\n\n\n\n\nDiplome d’Ingenieur — Financial Engineering\n\n\nGrenoble INP - ENSIMAG | 2022 – 2024\n\nGraduated with Honors\n\n\n\nMSc Quantitative Finance\n\n\nGrenoble INP - IAE | 2023 – 2024\n\nGraduated with Honors\n\n\n\nB.S. Applied Mathematics & Computer Science\n\n\nUniversite Grenoble Alpes | 2019 – 2022\n\nGraduated with High Honors\n\n\n\n\n\n\nInterests\n\n\n\n\nSystematic & Quantitative Trading\n\n\nDerivatives Pricing & Volatility\n\n\nMulti-Asset Portfolio Construction\n\n\nStatistical Arbitrage & Market Microstructure\n\n\n\n\n\n\nGet in Touch\n\n\nOpen to discussing opportunities in quantitative trading, portfolio management, and market-making.\nReach out via email"
   },
   {
     "objectID": "index_base.html",
@@ -60,41 +39,55 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Code: GitHub Repository\nA C++ tool for option pricing using Monte Carlo simulation and calculating Greeks.\nKey Features:\n\nSimulates option prices & sensitivities.\nSupports multiple financial products.\nReads product parameters from text files."
+    "text": "Code: GitHub Repository\nMonte-Carlo engine for derivatives pricing with Greeks computation, supporting multiple financial products.\n\nMonte-Carlo option pricing with sensitivity analysis (Greeks)\nSupports multiple financial products with parameterized inputs\nReads product parameters from configuration files"
   },
   {
-    "objectID": "projects.html#derivative-products-hedging-project",
-    "href": "projects.html#derivative-products-hedging-project",
+    "objectID": "projects.html#c-derivatives-pricing-library",
+    "href": "projects.html#c-derivatives-pricing-library",
     "title": "Projects",
     "section": "",
-    "text": "Code: GitHub Repository\nA C++ tool for option pricing using Monte Carlo simulation and calculating Greeks.\nKey Features:\n\nSimulates option prices & sensitivities.\nSupports multiple financial products.\nReads product parameters from text files."
+    "text": "Code: GitHub Repository\nMonte-Carlo engine for derivatives pricing with Greeks computation, supporting multiple financial products.\n\nMonte-Carlo option pricing with sensitivity analysis (Greeks)\nSupports multiple financial products with parameterized inputs\nReads product parameters from configuration files"
   },
   {
     "objectID": "projects.html#multi-cash-flow-derivatives-hedging",
     "href": "projects.html#multi-cash-flow-derivatives-hedging",
     "title": "Projects",
     "section": "Multi-Cash Flow Derivatives Hedging",
-    "text": "Multi-Cash Flow Derivatives Hedging\nCode: GitHub Repository\nA hedging & risk management tool for derivatives with multiple cash flows.\nKey Features:\n\nConstructs hedging portfolios with real calendar data.\nComputes optimal asset allocation."
+    "text": "Multi-Cash Flow Derivatives Hedging\nCode: GitHub Repository\nHedging and risk management platform for derivatives with multiple cash flows, built on a real calendar framework.\n\nConstructs hedging portfolios with real calendar data\nComputes optimal asset allocation across cash flow dates"
   },
   {
     "objectID": "projects.html#american-option-pricing",
     "href": "projects.html#american-option-pricing",
     "title": "Projects",
     "section": "American Option Pricing",
-    "text": "American Option Pricing\nCode: GitHub Repository\nA C++ implementation of Longstaff-Schwartz for American option pricing.\nKey Features:\n\nUses multidimensional Black-Scholes framework.\nReads input from JSON files."
+    "text": "American Option Pricing\nCode: GitHub Repository\nLongstaff-Schwartz implementation for American option pricing within a multidimensional Black-Scholes framework.\n\nHandles basket, geometric, and performance options\nReads market data from JSON input files\nOutputs pricing results with exercise boundary analysis"
   },
   {
-    "objectID": "projects.html#systematic-strategies-with-.net",
-    "href": "projects.html#systematic-strategies-with-.net",
+    "objectID": "projects.html#systematic-strategies-back-testing-engine",
+    "href": "projects.html#systematic-strategies-back-testing-engine",
     "title": "Projects",
-    "section": "Systematic Strategies with .NET",
-    "text": "Systematic Strategies with .NET\nCode: GitHub Repository\nA C# framework for automated trading strategies.\nKey Features:\n\nImplements forward & backtesting.\nUses gRPC communication.\nProcesses market data & parameters."
+    "section": "Systematic Strategies Back-Testing Engine",
+    "text": "Systematic Strategies Back-Testing Engine\nCode: GitHub Repository\nC#/.NET framework for systematic equity strategies with full transaction-cost modeling and performance attribution.\n\nForward and backtesting with realistic cost assumptions\ngRPC communication layer for market data\nStrategy performance attribution and analytics"
   },
   {
-    "objectID": "projects.html#multi-cash-flow-derivatives-hedging-code-github-repository",
-    "href": "projects.html#multi-cash-flow-derivatives-hedging-code-github-repository",
+    "objectID": "projects.html#cross-asset-structured-product-platform",
+    "href": "projects.html#cross-asset-structured-product-platform",
     "title": "Projects",
-    "section": "Multi-Cash Flow Derivatives Hedging Code: GitHub Repository",
-    "text": "Multi-Cash Flow Derivatives Hedging Code: GitHub Repository\nA hedging & risk management tool for derivatives with multiple cash flows.\nKey Features:\n\nConstructs hedging portfolios with real calendar data.\nComputes optimal asset allocation."
+    "section": "Cross-Asset Structured Product Platform",
+    "text": "Cross-Asset Structured Product Platform\nEnd-to-end structured product pricing and hedging platform spanning three languages.\n\nC++ pricer for structured product valuation\nPython hedging engine and portfolio builder\nJS/Node.js GUI for trade visualization and management"
+  },
+  {
+    "objectID": "projects.html#kalman-filter-pairs-trading-strategy",
+    "href": "projects.html#kalman-filter-pairs-trading-strategy",
+    "title": "Projects",
+    "section": "Kalman Filter Pairs Trading Strategy",
+    "text": "Kalman Filter Pairs Trading Strategy\nStatistical arbitrage strategy for cointegrated asset pairs using Kalman-filter-based dynamic hedge ratios.\n\nPairs: BTC/ETH, WTI/Brent, Gold/Silver\nDynamic z-score entry/exit signals\nAdaptive hedge ratio estimation via Kalman filtering"
+  },
+  {
+    "objectID": "projects.html#swaption-demand-forecasting",
+    "href": "projects.html#swaption-demand-forecasting",
+    "title": "Projects",
+    "section": "Swaption Demand Forecasting",
+    "text": "Swaption Demand Forecasting\nRandom Forest and SVM models forecasting swaption subscription demand from U.S. insurer data. Validated by senior quants at Credit Agricole CIB.\n\nPython/SQL pipeline for feature engineering on insurer datasets\nEnsemble and kernel-based classification models\nModel outputs used for flow-anticipation analysis"
   }
 ]

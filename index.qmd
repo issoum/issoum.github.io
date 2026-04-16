@@ -1,41 +1,116 @@
 ---
-title: "Isselmou Oumar"
-image: images/profile.jpg
-about:
-  template: trestles
-  links:
-    - text: LinkedIn
-      icon: linkedin
-      url: "https://www.linkedin.com/in/isselmou-oumar-254ba5203/"
-    - text: GitHub
-      icon: github
-      url: "https://github.com/issoum"
-    - text: Email
-      icon: envelope
-      url: "mailto:isselmouo4@gmail.com"
+pagetitle: "Isselmou Oumar"
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    page-layout: full
 comments: false
 ---
 
-## About Me
+::: {.hero-section}
+::: {.hero-content}
 
-I’m a Quantitative Analyst at [Société Générale](https://www.societegenerale.com) in Paris, working on climate risk modeling within the RISQ/MDL/MOD team.
+![](images/profile.jpg){.hero-image}
 
-I hold:
+# Isselmou Oumar {.hero-name}
 
-- A Financial Engineering degree from [ENSIMAG](https://ensimag.grenoble-inp.fr)
-- An MSc in Quantitative Finance from [IAE Grenoble](https://iae.grenoble-inp.fr)
+::: {.hero-tagline}
+Quantitative Analyst | Paris
+:::
 
-I specialize in stochastic calculus, quantitative finance, algorithmic trading, and machine learning applied to risk modeling.
+::: {.hero-bio}
+Building credit models on a €142B corporate book at [Societe Generale](https://www.societegenerale.com) using stochastic control, dynamic programming, and statistical learning. Previously at [Amundi Technology](https://www.amundi.com) — credit-spread modeling, climate-risk pricing, and portfolio construction.
+:::
 
----
+::: {.hero-links}
+<a href="https://www.linkedin.com/in/isselmou-oumar-254ba5203/" class="hero-btn"><i class="bi bi-linkedin"></i> LinkedIn</a>
+<a href="https://github.com/issoum" class="hero-btn"><i class="bi bi-github"></i> GitHub</a>
+<a href="mailto:isselmouo4@gmail.com" class="hero-btn"><i class="bi bi-envelope"></i> Email</a>
+<a href="Isselmou_Oumar_Resume_2026.pdf" class="hero-btn hero-btn-accent"><i class="bi bi-file-earmark-text"></i> Resume</a>
+:::
 
-## Interests
-- Algorithmic Trading – Building automated strategies.
-- Quantitative Finance – Pricing, hedging, and risk modeling.
-- Climate Risk Modeling – Quantifying the impact of climate change on financial markets.
-- Technology & Programming – Exploring innovations in financial modeling.
+:::
+:::
 
----
+::: {.section-wrapper}
 
-## Contact
-Feel free to reach out via [e-mail](mailto:isselmouo4@gmail.com) for collaborations or discussions on quantitative finance, tech, and research.
+<div class="section-title"><h2>Core Competencies</h2></div>
+
+<div class="competency-grid">
+<div class="competency-card">
+<div class="card-title">Derivatives Pricing & Calibration</div>
+<p>Monte-Carlo simulation, model calibration, Longstaff-Schwartz American option pricing, multi-asset structured products</p>
+</div>
+<div class="competency-card">
+<div class="card-title">Systematic Strategies</div>
+<p>Back-testing engines, factor-based strategies, transaction-cost modeling, performance attribution</p>
+</div>
+<div class="competency-card">
+<div class="card-title">Portfolio Construction & Risk</div>
+<p>Multi-asset portfolio optimization, hedging, credit spread modeling, risk-premia analysis</p>
+</div>
+<div class="competency-card">
+<div class="card-title">Statistical & ML Modeling</div>
+<p>Time-series analysis, Kalman filtering, Random Forest/SVM, probabilistic scenario modeling</p>
+</div>
+</div>
+:::
+
+::: {.section-wrapper .section-alt}
+
+<div class="section-title"><h2>Education</h2></div>
+
+<div class="education-grid">
+<div class="education-card">
+<div class="edu-title">Diplome d'Ingenieur — Financial Engineering</div>
+<p><a href="https://ensimag.grenoble-inp.fr">Grenoble INP - ENSIMAG</a> | 2022 – 2024</p>
+<em>Graduated with Honors</em>
+</div>
+<div class="education-card">
+<div class="edu-title">MSc Quantitative Finance</div>
+<p><a href="https://iae.grenoble-inp.fr">Grenoble INP - IAE</a> | 2023 – 2024</p>
+<em>Graduated with Honors</em>
+</div>
+<div class="education-card">
+<div class="edu-title">B.S. Applied Mathematics & Computer Science</div>
+<p>Universite Grenoble Alpes | 2019 – 2022</p>
+<em>Graduated with High Honors</em>
+</div>
+</div>
+:::
+
+::: {.section-wrapper}
+
+<div class="section-title"><h2>Interests</h2></div>
+
+::: {.interests-grid}
+
+::: {.interest-tag}
+Systematic & Quantitative Trading
+:::
+
+::: {.interest-tag}
+Derivatives Pricing & Volatility
+:::
+
+::: {.interest-tag}
+Multi-Asset Portfolio Construction
+:::
+
+::: {.interest-tag}
+Statistical Arbitrage & Market Microstructure
+:::
+
+:::
+:::
+
+::: {.section-wrapper .contact-section}
+
+<div class="section-title"><h2>Get in Touch</h2></div>
+
+Open to discussing opportunities in quantitative trading, portfolio management, and market-making.
+
+[Reach out via email](mailto:isselmouo4@gmail.com){.contact-btn}
+
+:::
