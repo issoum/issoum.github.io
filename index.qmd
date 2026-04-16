@@ -13,7 +13,7 @@ comments: false
 
 ![](images/profile.jpg){.hero-image}
 
-# Isselmou Oumar {.hero-name}
+<h1 class="hero-name">Isselmou Oumar</h1>
 
 ::: {.hero-tagline}
 Quantitative Analyst | Paris
