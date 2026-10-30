@@ -1,93 +1,51 @@
 [
   {
-    "objectID": "index_base.html",
-    "href": "index_base.html",
-    "title": "Isselmou Oumar",
-    "section": "",
-    "text": "I’m a Quantitative Analyst at Societe Generale in Paris, working on climate risk modeling within the RISQ/MDL/MOD team. I graduated with a Financial Engineering degree from ENSIMAG and a Msc in Quantitative Finance from IAE Grenoble, specializing in stochastic calculus, advanced quantitative techniques and statistical analysis.\nOutside of work, I enjoy exploring new technologies and problem-solving. I’m also passionate about sharing knowledge and contributing to the finance and tech communities.\nInterests: Algorithmic Trading, Quantitative Finance, Climate Risk Modeling and Continuous Learning\n\n\n\nIf you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing workshop offerings and collaborative opportunities."
-  },
-  {
-    "objectID": "index_base.html#bio",
-    "href": "index_base.html#bio",
-    "title": "Isselmou Oumar",
-    "section": "",
-    "text": "I’m a Quantitative Analyst at Societe Generale in Paris, working on climate risk modeling within the RISQ/MDL/MOD team. I graduated with a Financial Engineering degree from ENSIMAG and a Msc in Quantitative Finance from IAE Grenoble, specializing in stochastic calculus, advanced quantitative techniques and statistical analysis.\nOutside of work, I enjoy exploring new technologies and problem-solving. I’m also passionate about sharing knowledge and contributing to the finance and tech communities.\nInterests: Algorithmic Trading, Quantitative Finance, Climate Risk Modeling and Continuous Learning"
-  },
-  {
-    "objectID": "index_base.html#inquiries",
-    "href": "index_base.html#inquiries",
-    "title": "Isselmou Oumar",
-    "section": "",
-    "text": "If you have questions about my work or are interested in collaborating, feel free to contact me. I am always interested in discussing workshop offerings and collaborative opportunities."
-  },
-  {
-    "objectID": "projects_base.html",
-    "href": "projects_base.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Derivative Products Hedging Project\n{code}\nThe goal of this project is to design and implement a tool in C++ for calculating option prices using the Monte Carlo method, as well as their sensitivities (Greeks) with respect to the spot price. The project includes defining the problem and practical motivations, modeling asset price dynamics, and architecting the pricing tool. The developed executable reads product parameters from a text file and supports a list of financial products to be priced.\nMulti-Cash Flow Derivatives Hedging and Pricing\n{code}\nApplication for hedging derivatives based on a real calendar with multiple cash flows. It consists of a financial application for managing data and constructing the hedging portfolio, and a mathematical application for calculating the quantities of underlying assets to hold.\nAmerican Option Pricing\n{code}\nAmerican options pricing using the Longstaff-Schwartz algorithm within a multidimensional Black-Scholes model. The project involves implementing an option pricing tool in C++ that handles various types of options, including basket, geometric, and performance options. The tool reads financial parameters and market data from input files and outputs the pricing results in JSON format.\nSystematic Strategies with .NET\n{code}\nDevelopment of a financial application using the .NET framework, focusing on forward and backtesting strategies. The project includes implementing a decision-aid tool in C#, with components for database access and gRPC communication. The tool processes test parameters and market data, outputting results in JSON format."
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Code: GitHub Repository\nMonte-Carlo engine for derivatives pricing with Greeks computation, supporting multiple financial products.\n\nMonte-Carlo option pricing with sensitivity analysis (Greeks)\nSupports multiple financial products with parameterized inputs\nReads product parameters from configuration files"
+    "text": "Course projects from Grenoble INP – Ensimag, co-authored with Tariq Sereir."
   },
   {
-    "objectID": "projects.html#c-derivatives-pricing-library",
-    "href": "projects.html#c-derivatives-pricing-library",
+    "objectID": "projects.html#american-option-pricing-longstaffschwartz",
+    "href": "projects.html#american-option-pricing-longstaffschwartz",
     "title": "Projects",
-    "section": "",
-    "text": "Code: GitHub Repository\nMonte-Carlo engine for derivatives pricing with Greeks computation, supporting multiple financial products.\n\nMonte-Carlo option pricing with sensitivity analysis (Greeks)\nSupports multiple financial products with parameterized inputs\nReads product parameters from configuration files"
+    "section": "American Option Pricing – Longstaff–Schwartz",
+    "text": "American Option Pricing – Longstaff–Schwartz\nC++ · Monte Carlo · least-squares regression\nMonte-Carlo pricer for American options in a multidimensional Black–Scholes model.\n\nContinuation values estimated by regression on a Hermite polynomial basis\nDirect LSM price, plus a re-simulation price on independent paths with its standard deviation\nBasket, best-of and geometric put payoffs (the geometric put has a closed-form benchmark)"
+  },
+  {
+    "objectID": "projects.html#monte-carlo-pricing-delta-hedging-of-exotic-options",
+    "href": "projects.html#monte-carlo-pricing-delta-hedging-of-exotic-options",
+    "title": "Projects",
+    "section": "Monte-Carlo Pricing & Delta Hedging of Exotic Options",
+    "text": "Monte-Carlo Pricing & Delta Hedging of Exotic Options\nC++ · Monte Carlo · Greeks · hedging\nMonte-Carlo engine that prices path-dependent options, computes their deltas and backtests a delta-hedging strategy.\n\nPrices and deltas at t = 0, each with the standard deviation of its estimator\nPricing at t &gt; 0 conditional on the observed past\nDeltas by central finite differences on common random numbers\nDiscrete delta-hedging along a market path, reporting the final hedging P&L\nAsian, basket and performance options"
   },
   {
     "objectID": "projects.html#multi-cash-flow-derivatives-hedging",
     "href": "projects.html#multi-cash-flow-derivatives-hedging",
     "title": "Projects",
-    "section": "Multi-Cash Flow Derivatives Hedging",
-    "text": "Multi-Cash Flow Derivatives Hedging\nCode: GitHub Repository\nHedging and risk management platform for derivatives with multiple cash flows, built on a real calendar framework.\n\nConstructs hedging portfolios with real calendar data\nComputes optimal asset allocation across cash flow dates"
+    "section": "Multi-Cash-Flow Derivatives Hedging",
+    "text": "Multi-Cash-Flow Derivatives Hedging\nC++ · C#/.NET · gRPC\nTwo-service application that hedges a derivative paying several cash flows on real calendar dates.\n\nC++ gRPC pricing server: Monte-Carlo price and deltas of the multi-flow product\nC# hedging engine: rebalancing oracle, portfolio updates and cash-flow handling\nOutputs the hedging portfolio over time as JSON"
   },
   {
-    "objectID": "projects.html#american-option-pricing",
-    "href": "projects.html#american-option-pricing",
+    "objectID": "projects.html#replicating-portfolio-backtester",
+    "href": "projects.html#replicating-portfolio-backtester",
     "title": "Projects",
-    "section": "American Option Pricing",
-    "text": "American Option Pricing\nCode: GitHub Repository\nLongstaff-Schwartz implementation for American option pricing within a multidimensional Black-Scholes framework.\n\nHandles basket, geometric, and performance options\nReads market data from JSON input files\nOutputs pricing results with exercise boundary analysis"
-  },
-  {
-    "objectID": "projects.html#systematic-strategies-back-testing-engine",
-    "href": "projects.html#systematic-strategies-back-testing-engine",
-    "title": "Projects",
-    "section": "Systematic Strategies Back-Testing Engine",
-    "text": "Systematic Strategies Back-Testing Engine\nCode: GitHub Repository\nC#/.NET framework for systematic equity strategies with full transaction-cost modeling and performance attribution.\n\nForward and backtesting with realistic cost assumptions\ngRPC communication layer for market data\nStrategy performance attribution and analytics"
-  },
-  {
-    "objectID": "projects.html#cross-asset-structured-product-platform",
-    "href": "projects.html#cross-asset-structured-product-platform",
-    "title": "Projects",
-    "section": "Cross-Asset Structured Product Platform",
-    "text": "Cross-Asset Structured Product Platform\nEnd-to-end structured product pricing and hedging platform spanning three languages.\n\nC++ pricer for structured product valuation\nPython hedging engine and portfolio builder\nJS/Node.js GUI for trade visualization and management"
-  },
-  {
-    "objectID": "projects.html#kalman-filter-pairs-trading-strategy",
-    "href": "projects.html#kalman-filter-pairs-trading-strategy",
-    "title": "Projects",
-    "section": "Kalman Filter Pairs Trading Strategy",
-    "text": "Kalman Filter Pairs Trading Strategy\nStatistical arbitrage strategy for cointegrated asset pairs using Kalman-filter-based dynamic hedge ratios.\n\nPairs: BTC/ETH, WTI/Brent, Gold/Silver\nDynamic z-score entry/exit signals\nAdaptive hedge ratio estimation via Kalman filtering"
+    "section": "Replicating-Portfolio Backtester",
+    "text": "Replicating-Portfolio Backtester\nC#/.NET\nConsole application that backtests the replication of a derivative on historical market data.\n\nSelf-financing portfolio holding the deltas, with the remainder in the risk-free account\nRegular and weekly rebalancing schedules\nReplicating-portfolio history exported to JSON"
   },
   {
     "objectID": "projects.html#swaption-demand-forecasting",
     "href": "projects.html#swaption-demand-forecasting",
     "title": "Projects",
     "section": "Swaption Demand Forecasting",
-    "text": "Swaption Demand Forecasting\nRandom Forest and SVM models forecasting swaption subscription demand from U.S. insurer data. Validated by senior quants at Credit Agricole CIB.\n\nPython/SQL pipeline for feature engineering on insurer datasets\nEnsemble and kernel-based classification models\nModel outputs used for flow-anticipation analysis"
+    "text": "Swaption Demand Forecasting\nPython · SQL · machine learning\nIndustry project with Crédit Agricole CIB: Random Forest and SVM models of swaption subscription demand from U.S. insurer data."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\nIsselmou Oumar\n",
     "section": "",
-    "text": "Isselmou Oumar\n\n\nQuantitative Analyst | Paris\n\n\nBuilding credit models on a €142B corporate book at Societe Generale using stochastic control, dynamic programming, and statistical learning. Previously at Amundi Technology — credit-spread modeling, climate-risk pricing, and portfolio construction.\n\n\n LinkedIn  GitHub  Email  Resume\n\n\n\n\n\n\nCore Competencies\n\n\n\n\n\nDerivatives Pricing & Calibration\n\n\nMonte-Carlo simulation, model calibration, Longstaff-Schwartz American option pricing, multi-asset structured products\n\n\n\n\nSystematic Strategies\n\n\nBack-testing engines, factor-based strategies, transaction-cost modeling, performance attribution\n\n\n\n\nPortfolio Construction & Risk\n\n\nMulti-asset portfolio optimization, hedging, credit spread modeling, risk-premia analysis\n\n\n\n\nStatistical & ML Modeling\n\n\nTime-series analysis, Kalman filtering, Random Forest/SVM, probabilistic scenario modeling\n\n\n\n\n\n\n\nEducation\n\n\n\n\n\nDiplome d’Ingenieur — Financial Engineering\n\n\nGrenoble INP - ENSIMAG | 2022 – 2024\n\nGraduated with Honors\n\n\n\nMSc Quantitative Finance\n\n\nGrenoble INP - IAE | 2023 – 2024\n\nGraduated with Honors\n\n\n\nB.S. Applied Mathematics & Computer Science\n\n\nUniversite Grenoble Alpes | 2019 – 2022\n\nGraduated with High Honors\n\n\n\n\n\n\nInterests\n\n\n\n\nSystematic & Quantitative Trading\n\n\nDerivatives Pricing & Volatility\n\n\nMulti-Asset Portfolio Construction\n\n\nStatistical Arbitrage & Market Microstructure\n\n\n\n\n\n\nGet in Touch\n\n\nOpen to discussing opportunities in quantitative trading, portfolio management, and market-making.\nReach out via email"
+    "text": "Isselmou Oumar\n\n\nQuantitative Analyst | Paris\n\n\nQuantitative analyst at Société Générale working on credit and climate risk: an LLM-based news-analytics pipeline on GDELT now used by credit risk teams, a parallel Monte-Carlo engine for NGFS climate stress testing, and R&D on transition risk in PD models. Previously at Amundi Technology, researching carbon-price shock transmission to credit markets through CDS-implied spreads.\n\n\n LinkedIn  GitHub  Email  Resume\n\n\n\n\n\n\nCore Competencies\n\n\n\n\n\nDerivatives Pricing & Hedging\n\n\nMonte-Carlo pricing, Longstaff–Schwartz American options, finite-difference Greeks, delta hedging and replication backtests\n\n\n\n\nCredit & Climate Risk\n\n\nPD modelling, CDS-implied spreads, NGFS climate stress testing, transition-risk pricing\n\n\n\n\nQuantitative Engineering\n\n\nC++, Python, C#/.NET, R/Rcpp, gRPC services, parallel Monte-Carlo simulation\n\n\n\n\nStatistical & ML Modeling\n\n\nLLM-based news analytics, time-series analysis, Random Forest/SVM, probabilistic scenario modeling\n\n\n\n\n\n\n\nEducation\n\n\n\n\n\nDiplôme d’Ingénieur — Financial Engineering\n\n\nGrenoble INP - ENSIMAG | 2022 – 2024\n\nGraduated with Honors\n\n\n\nMSc Quantitative Finance (double degree)\n\n\nGrenoble INP - IAE | 2023 – 2024\n\nGraduated with Honors\n\n\n\nB.S. Applied Mathematics & Computer Science\n\n\nUniversité Grenoble Alpes | 2019 – 2022\n\nGraduated with High Honors\n\n\n\n\n\n\nInterests\n\n\n\n\nSystematic & Quantitative Trading\n\n\nDerivatives Pricing & Volatility\n\n\nMulti-Asset Portfolio Construction\n\n\nStatistical Arbitrage & Market Microstructure\n\n\nEnergy & Carbon Markets\n\n\n\n\n\n\nGet in Touch\n\n\nOpen to discussing opportunities in quantitative research and trading.\nReach out via email"
   }
 ]

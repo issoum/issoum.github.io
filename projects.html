@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.20">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f7919f14b89ae9a431cba0b331f0b52b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d55ebb04db9ef80d103d4b62178c47ee.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -139,77 +142,57 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="c-derivatives-pricing-library" class="level2">
-<h2 class="anchored" data-anchor-id="c-derivatives-pricing-library"><a href="https://github.com/tsereir/Derivative-Products-Hedging">C++ Derivatives Pricing Library</a></h2>
-<p>Code: <a href="https://github.com/tsereir/Derivative-Products-Hedging">GitHub Repository</a></p>
-<p>Monte-Carlo engine for derivatives pricing with Greeks computation, supporting multiple financial products.</p>
+<p>Course projects from Grenoble INP – Ensimag, co-authored with Tariq Sereir.</p>
+<section id="american-option-pricing-longstaffschwartz" class="level2">
+<h2 class="anchored" data-anchor-id="american-option-pricing-longstaffschwartz"><a href="https://github.com/issoum/american-option-pricing-lsm">American Option Pricing – Longstaff–Schwartz</a></h2>
+<p>C++ · Monte Carlo · least-squares regression</p>
+<p>Monte-Carlo pricer for American options in a multidimensional Black–Scholes model.</p>
 <ul>
-<li>Monte-Carlo option pricing with sensitivity analysis (Greeks)</li>
-<li>Supports multiple financial products with parameterized inputs</li>
-<li>Reads product parameters from configuration files</li>
+<li>Continuation values estimated by regression on a Hermite polynomial basis</li>
+<li>Direct LSM price, plus a re-simulation price on independent paths with its standard deviation</li>
+<li>Basket, best-of and geometric put payoffs (the geometric put has a closed-form benchmark)</li>
+</ul>
+<hr>
+</section>
+<section id="monte-carlo-pricing-delta-hedging-of-exotic-options" class="level2">
+<h2 class="anchored" data-anchor-id="monte-carlo-pricing-delta-hedging-of-exotic-options"><a href="https://github.com/issoum/mc-derivatives-hedging">Monte-Carlo Pricing &amp; Delta Hedging of Exotic Options</a></h2>
+<p>C++ · Monte Carlo · Greeks · hedging</p>
+<p>Monte-Carlo engine that prices path-dependent options, computes their deltas and backtests a delta-hedging strategy.</p>
+<ul>
+<li>Prices and deltas at t = 0, each with the standard deviation of its estimator</li>
+<li>Pricing at t &gt; 0 conditional on the observed past</li>
+<li>Deltas by central finite differences on common random numbers</li>
+<li>Discrete delta-hedging along a market path, reporting the final hedging P&amp;L</li>
+<li>Asian, basket and performance options</li>
 </ul>
 <hr>
 </section>
 <section id="multi-cash-flow-derivatives-hedging" class="level2">
-<h2 class="anchored" data-anchor-id="multi-cash-flow-derivatives-hedging"><a href="https://github.com/tsereir/Multi-Cash-Flow-Hedging-">Multi-Cash Flow Derivatives Hedging</a></h2>
-<p>Code: <a href="https://github.com/tsereir/Multi-Cash-Flow-Hedging-">GitHub Repository</a></p>
-<p>Hedging and risk management platform for derivatives with multiple cash flows, built on a real calendar framework.</p>
+<h2 class="anchored" data-anchor-id="multi-cash-flow-derivatives-hedging"><a href="https://github.com/issoum/multi-cashflow-hedging">Multi-Cash-Flow Derivatives Hedging</a></h2>
+<p>C++ · C#/.NET · gRPC</p>
+<p>Two-service application that hedges a derivative paying several cash flows on real calendar dates.</p>
 <ul>
-<li>Constructs hedging portfolios with real calendar data</li>
-<li>Computes optimal asset allocation across cash flow dates</li>
+<li>C++ gRPC pricing server: Monte-Carlo price and deltas of the multi-flow product</li>
+<li>C# hedging engine: rebalancing oracle, portfolio updates and cash-flow handling</li>
+<li>Outputs the hedging portfolio over time as JSON</li>
 </ul>
 <hr>
 </section>
-<section id="american-option-pricing" class="level2">
-<h2 class="anchored" data-anchor-id="american-option-pricing"><a href="https://github.com/tsereir/American-Option-Pricing/tree/master">American Option Pricing</a></h2>
-<p>Code: <a href="https://github.com/tsereir/American-Option-Pricing/tree/master">GitHub Repository</a></p>
-<p>Longstaff-Schwartz implementation for American option pricing within a multidimensional Black-Scholes framework.</p>
+<section id="replicating-portfolio-backtester" class="level2">
+<h2 class="anchored" data-anchor-id="replicating-portfolio-backtester"><a href="https://github.com/issoum/dotnet-backtesting-engine">Replicating-Portfolio Backtester</a></h2>
+<p>C#/.NET</p>
+<p>Console application that backtests the replication of a derivative on historical market data.</p>
 <ul>
-<li>Handles basket, geometric, and performance options</li>
-<li>Reads market data from JSON input files</li>
-<li>Outputs pricing results with exercise boundary analysis</li>
-</ul>
-<hr>
-</section>
-<section id="systematic-strategies-back-testing-engine" class="level2">
-<h2 class="anchored" data-anchor-id="systematic-strategies-back-testing-engine"><a href="https://github.com/tsereir/Systematic-Strategies-">Systematic Strategies Back-Testing Engine</a></h2>
-<p>Code: <a href="https://github.com/tsereir/Systematic-Strategies-">GitHub Repository</a></p>
-<p>C#/.NET framework for systematic equity strategies with full transaction-cost modeling and performance attribution.</p>
-<ul>
-<li>Forward and backtesting with realistic cost assumptions</li>
-<li>gRPC communication layer for market data</li>
-<li>Strategy performance attribution and analytics</li>
-</ul>
-<hr>
-</section>
-<section id="cross-asset-structured-product-platform" class="level2">
-<h2 class="anchored" data-anchor-id="cross-asset-structured-product-platform">Cross-Asset Structured Product Platform</h2>
-<p>End-to-end structured product pricing and hedging platform spanning three languages.</p>
-<ul>
-<li><strong>C++ pricer</strong> for structured product valuation</li>
-<li><strong>Python</strong> hedging engine and portfolio builder</li>
-<li><strong>JS/Node.js</strong> GUI for trade visualization and management</li>
-</ul>
-<hr>
-</section>
-<section id="kalman-filter-pairs-trading-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="kalman-filter-pairs-trading-strategy">Kalman Filter Pairs Trading Strategy</h2>
-<p>Statistical arbitrage strategy for cointegrated asset pairs using Kalman-filter-based dynamic hedge ratios.</p>
-<ul>
-<li>Pairs: BTC/ETH, WTI/Brent, Gold/Silver</li>
-<li>Dynamic z-score entry/exit signals</li>
-<li>Adaptive hedge ratio estimation via Kalman filtering</li>
+<li>Self-financing portfolio holding the deltas, with the remainder in the risk-free account</li>
+<li>Regular and weekly rebalancing schedules</li>
+<li>Replicating-portfolio history exported to JSON</li>
 </ul>
 <hr>
 </section>
 <section id="swaption-demand-forecasting" class="level2">
 <h2 class="anchored" data-anchor-id="swaption-demand-forecasting">Swaption Demand Forecasting</h2>
-<p>Random Forest and SVM models forecasting swaption subscription demand from U.S. insurer data. Validated by senior quants at Credit Agricole CIB.</p>
-<ul>
-<li>Python/SQL pipeline for feature engineering on insurer datasets</li>
-<li>Ensemble and kernel-based classification models</li>
-<li>Model outputs used for flow-anticipation analysis</li>
-</ul>
+<p>Python · SQL · machine learning</p>
+<p>Industry project with Crédit Agricole CIB: Random Forest and SVM models of swaption subscription demand from U.S. insurer data.</p>
 
 
 </section>
