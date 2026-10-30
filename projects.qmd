@@ -6,73 +6,55 @@ format:
     css: styles.css
 ---
 
-## [C++ Derivatives Pricing Library](https://github.com/tsereir/Derivative-Products-Hedging)
-Code: [GitHub Repository](https://github.com/tsereir/Derivative-Products-Hedging)
+Course projects from Grenoble INP – Ensimag, co-authored with Tariq Sereir.
 
-Monte-Carlo engine for derivatives pricing with Greeks computation, supporting multiple financial products.
+## [American Option Pricing – Longstaff–Schwartz](https://github.com/issoum/american-option-pricing-lsm)
+C++ · Monte Carlo · least-squares regression
 
-- Monte-Carlo option pricing with sensitivity analysis (Greeks)
-- Supports multiple financial products with parameterized inputs
-- Reads product parameters from configuration files
+Monte-Carlo pricer for American options in a multidimensional Black–Scholes model.
 
----
-
-## [Multi-Cash Flow Derivatives Hedging](https://github.com/tsereir/Multi-Cash-Flow-Hedging-)
-Code: [GitHub Repository](https://github.com/tsereir/Multi-Cash-Flow-Hedging-)
-
-Hedging and risk management platform for derivatives with multiple cash flows, built on a real calendar framework.
-
-- Constructs hedging portfolios with real calendar data
-- Computes optimal asset allocation across cash flow dates
+- Continuation values estimated by regression on a Hermite polynomial basis
+- Direct LSM price, plus a re-simulation price on independent paths with its standard deviation
+- Basket, best-of and geometric put payoffs (the geometric put has a closed-form benchmark)
 
 ---
 
-## [American Option Pricing](https://github.com/tsereir/American-Option-Pricing/tree/master)
-Code: [GitHub Repository](https://github.com/tsereir/American-Option-Pricing/tree/master)
+## [Monte-Carlo Pricing & Delta Hedging of Exotic Options](https://github.com/issoum/mc-derivatives-hedging)
+C++ · Monte Carlo · Greeks · hedging
 
-Longstaff-Schwartz implementation for American option pricing within a multidimensional Black-Scholes framework.
+Monte-Carlo engine that prices path-dependent options, computes their deltas and backtests a delta-hedging strategy.
 
-- Handles basket, geometric, and performance options
-- Reads market data from JSON input files
-- Outputs pricing results with exercise boundary analysis
-
----
-
-## [Systematic Strategies Back-Testing Engine](https://github.com/tsereir/Systematic-Strategies-)
-Code: [GitHub Repository](https://github.com/tsereir/Systematic-Strategies-)
-
-C#/.NET framework for systematic equity strategies with full transaction-cost modeling and performance attribution.
-
-- Forward and backtesting with realistic cost assumptions
-- gRPC communication layer for market data
-- Strategy performance attribution and analytics
+- Prices and deltas at t = 0, each with the standard deviation of its estimator
+- Pricing at t > 0 conditional on the observed past
+- Deltas by central finite differences on common random numbers
+- Discrete delta-hedging along a market path, reporting the final hedging P&L
+- Asian, basket and performance options
 
 ---
 
-## Cross-Asset Structured Product Platform
+## [Multi-Cash-Flow Derivatives Hedging](https://github.com/issoum/multi-cashflow-hedging)
+C++ · C#/.NET · gRPC
 
-End-to-end structured product pricing and hedging platform spanning three languages.
+Two-service application that hedges a derivative paying several cash flows on real calendar dates.
 
-- **C++ pricer** for structured product valuation
-- **Python** hedging engine and portfolio builder
-- **JS/Node.js** GUI for trade visualization and management
+- C++ gRPC pricing server: Monte-Carlo price and deltas of the multi-flow product
+- C# hedging engine: rebalancing oracle, portfolio updates and cash-flow handling
+- Outputs the hedging portfolio over time as JSON
 
 ---
 
-## Kalman Filter Pairs Trading Strategy
+## [Replicating-Portfolio Backtester](https://github.com/issoum/dotnet-backtesting-engine)
+C#/.NET
 
-Statistical arbitrage strategy for cointegrated asset pairs using Kalman-filter-based dynamic hedge ratios.
+Console application that backtests the replication of a derivative on historical market data.
 
-- Pairs: BTC/ETH, WTI/Brent, Gold/Silver
-- Dynamic z-score entry/exit signals
-- Adaptive hedge ratio estimation via Kalman filtering
+- Self-financing portfolio holding the deltas, with the remainder in the risk-free account
+- Regular and weekly rebalancing schedules
+- Replicating-portfolio history exported to JSON
 
 ---
 
 ## Swaption Demand Forecasting
+Python · SQL · machine learning
 
-Random Forest and SVM models forecasting swaption subscription demand from U.S. insurer data. Validated by senior quants at Credit Agricole CIB.
-
-- Python/SQL pipeline for feature engineering on insurer datasets
-- Ensemble and kernel-based classification models
-- Model outputs used for flow-anticipation analysis
+Industry project with Crédit Agricole CIB: Random Forest and SVM models of swaption subscription demand from U.S. insurer data.

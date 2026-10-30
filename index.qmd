@@ -11,7 +11,7 @@ comments: false
 ::: {.hero-section}
 ::: {.hero-content}
 
-![](images/profile.jpg){.hero-image}
+![](images/profile.jpg){.hero-image fig-alt="Portrait of Isselmou Oumar"}
 
 <h1 class="hero-name">Isselmou Oumar</h1>
 
@@ -20,7 +20,7 @@ Quantitative Analyst | Paris
 :::
 
 ::: {.hero-bio}
-Building credit models on a €142B corporate book at [Societe Generale](https://www.societegenerale.com) using stochastic control, dynamic programming, and statistical learning. Previously at [Amundi Technology](https://www.amundi.com) — credit-spread modeling, climate-risk pricing, and portfolio construction.
+Quantitative analyst at [Société Générale](https://www.societegenerale.com) working on credit and climate risk: an LLM-based news-analytics pipeline on GDELT now used by credit risk teams, a parallel Monte-Carlo engine for NGFS climate stress testing, and R&D on transition risk in PD models. Previously at [Amundi Technology](https://www.amundi.com), researching carbon-price shock transmission to credit markets through CDS-implied spreads.
 :::
 
 ::: {.hero-links}
@@ -39,20 +39,20 @@ Building credit models on a €142B corporate book at [Societe Generale](https:/
 
 <div class="competency-grid">
 <div class="competency-card">
-<div class="card-title">Derivatives Pricing & Calibration</div>
-<p>Monte-Carlo simulation, model calibration, Longstaff-Schwartz American option pricing, multi-asset structured products</p>
+<div class="card-title">Derivatives Pricing & Hedging</div>
+<p>Monte-Carlo pricing, Longstaff–Schwartz American options, finite-difference Greeks, delta hedging and replication backtests</p>
 </div>
 <div class="competency-card">
-<div class="card-title">Systematic Strategies</div>
-<p>Back-testing engines, factor-based strategies, transaction-cost modeling, performance attribution</p>
+<div class="card-title">Credit & Climate Risk</div>
+<p>PD modelling, CDS-implied spreads, NGFS climate stress testing, transition-risk pricing</p>
 </div>
 <div class="competency-card">
-<div class="card-title">Portfolio Construction & Risk</div>
-<p>Multi-asset portfolio optimization, hedging, credit spread modeling, risk-premia analysis</p>
+<div class="card-title">Quantitative Engineering</div>
+<p>C++, Python, C#/.NET, R/Rcpp, gRPC services, parallel Monte-Carlo simulation</p>
 </div>
 <div class="competency-card">
 <div class="card-title">Statistical & ML Modeling</div>
-<p>Time-series analysis, Kalman filtering, Random Forest/SVM, probabilistic scenario modeling</p>
+<p>LLM-based news analytics, time-series analysis, Random Forest/SVM, probabilistic scenario modeling</p>
 </div>
 </div>
 :::
@@ -63,18 +63,18 @@ Building credit models on a €142B corporate book at [Societe Generale](https:/
 
 <div class="education-grid">
 <div class="education-card">
-<div class="edu-title">Diplome d'Ingenieur — Financial Engineering</div>
+<div class="edu-title">Diplôme d'Ingénieur — Financial Engineering</div>
 <p><a href="https://ensimag.grenoble-inp.fr">Grenoble INP - ENSIMAG</a> | 2022 – 2024</p>
 <em>Graduated with Honors</em>
 </div>
 <div class="education-card">
-<div class="edu-title">MSc Quantitative Finance</div>
+<div class="edu-title">MSc Quantitative Finance (double degree)</div>
 <p><a href="https://iae.grenoble-inp.fr">Grenoble INP - IAE</a> | 2023 – 2024</p>
 <em>Graduated with Honors</em>
 </div>
 <div class="education-card">
 <div class="edu-title">B.S. Applied Mathematics & Computer Science</div>
-<p>Universite Grenoble Alpes | 2019 – 2022</p>
+<p>Université Grenoble Alpes | 2019 – 2022</p>
 <em>Graduated with High Honors</em>
 </div>
 </div>
@@ -102,6 +102,10 @@ Multi-Asset Portfolio Construction
 Statistical Arbitrage & Market Microstructure
 :::
 
+::: {.interest-tag}
+Energy & Carbon Markets
+:::
+
 :::
 :::
 
@@ -109,7 +113,7 @@ Statistical Arbitrage & Market Microstructure
 
 <div class="section-title"><h2>Get in Touch</h2></div>
 
-Open to discussing opportunities in quantitative trading, portfolio management, and market-making.
+Open to discussing opportunities in quantitative research and trading.
 
 [Reach out via email](mailto:isselmouo4@gmail.com){.contact-btn}
 
