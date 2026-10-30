@@ -6,7 +6,18 @@ format:
     css: styles.css
 ---
 
-Course projects from Grenoble INP – Ensimag, co-authored with Tariq Sereir.
+## [Day-Ahead Power Price Forecasting & Battery Arbitrage](https://github.com/issoum/power-price-forecasting)
+Python · machine learning · energy markets
+
+Hourly forecasts of the German (DE-LU) day-ahead electricity price, evaluated walk-forward over 667 out-of-sample days, and a battery arbitrage strategy driven by the forecasts.
+
+- Features restricted to what is known at gate closure (D-1 12:00): archived weather forecasts, lagged prices, calendar; enforced by unit tests
+- Gradient boosting cuts MAE by 45% vs. the weekly naive benchmark (20.2 EUR/MWh, Diebold–Mariano p < 0.001)
+- Forecast-driven 1 MW / 1 MWh battery adds +9.5% P&L over a naive forecast, net of a 15 EUR/MWh degradation cost (block-bootstrap 95% CI excludes zero)
+
+---
+
+The projects below are course projects from Grenoble INP – Ensimag, co-authored with Tariq Sereir.
 
 ## [American Option Pricing – Longstaff–Schwartz](https://github.com/issoum/american-option-pricing-lsm)
 C++ · Monte Carlo · least-squares regression
